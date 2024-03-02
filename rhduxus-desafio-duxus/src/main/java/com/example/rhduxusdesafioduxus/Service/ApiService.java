@@ -28,7 +28,7 @@ public class ApiService {
         // TODO Implementar método seguindo as instruções!
         Map<LocalDate, List<String>> map = new HashMap<>();
         for (Time t :  todosOsTimes){
-           
+           findByData(data);
         }
         //pegar os valores da data e os times
         //usar o map para pegar todos os times de uma só vez (mas primeiro aprender a usar o map)
